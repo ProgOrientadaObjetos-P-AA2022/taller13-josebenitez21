@@ -8,9 +8,8 @@ package p3;
  *
  * @author M S I
  */
-public class DominioGmail implements Dominio {
-
-    private String domg;
+public class DominioOutlook  implements Dominio{
+     private String domg;
 
     @Override
     public void establecerDominio(String g) {
@@ -20,5 +19,5 @@ public class DominioGmail implements Dominio {
     @Override
     public String obtenerDominio() {
         return domg;
-    }
+    }   
 }

@@ -8,7 +8,7 @@ package p3;
  *
  * @author M S I
  */
-public class DominioGmail implements Dominio {
+public class DominioYahoo implements Dominio {
 
     private String domg;
 

@@ -10,11 +10,11 @@ package p3;
  * @author reroes
  */
 public class Correo {
-    private DominioGmail dominioGmail;
+    private Dominio dominioGmail;
     private String correo;
     private String username;
     
-    public void establecerDominio(DominioGmail g){
+    public void establecerDominio(Dominio g){
         dominioGmail = g;
     }
     
@@ -27,7 +27,7 @@ public class Correo {
                 obtenerDominio().obtenerDominio());
     }
     
-    public DominioGmail obtenerDominio(){
+    public Dominio obtenerDominio(){
         return dominioGmail;
     }
     
